@@ -32,5 +32,7 @@ Yard sign request and delivery management for the Jessica Rushing campaign (Mass
 
 ## Docs
 
-- [Project brief](docs/project-brief.md) — client context, current workflow, proposed automated workflow, open questions
+- [Background brief](02-background-brief/Rushing%20Background%20Brief.docx) — partner, district, campaign context, and frictions (Word; download to read)
+- [Campaign network map](02-background-brief/network-map.html) — download and open locally; GitHub shows source, not the map
+- [Proposed workflow](docs/proposed-workflow.md) — design notes for the automated workflow
 - [Workflow diagram](docs/yard-sign-workflow.pdf) — swimlane view of the proposed workflow
