@@ -1,7 +1,7 @@
 # Proposed Workflow — Yard Sign Request to Delivery
 
 Design notes for the automated workflow. Background and client context live in
-[the background brief](../02-background-brief/background-brief.md); the swimlane
+[the background brief](../02-background-brief/Rushing%20Background%20Brief.docx); the swimlane
 diagram is [yard-sign-workflow.pdf](yard-sign-workflow.pdf).
 
 ## The workflow
