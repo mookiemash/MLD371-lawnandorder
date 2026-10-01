@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Office lock/temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+*.swp
