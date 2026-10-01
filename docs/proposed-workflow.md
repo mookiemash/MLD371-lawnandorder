@@ -1,37 +1,10 @@
-# Project Brief — Yard Sign Request to Delivery
+# Proposed Workflow — Yard Sign Request to Delivery
 
-**Client:** Jessica Rushing, candidate for the Massachusetts Plymouth 6th District
-**Course:** MLD-371, Artificial Intelligence and Civil Society (HKS)
-**Workflow diagram:** [yard-sign-workflow.pdf](yard-sign-workflow.pdf)
+Design notes for the automated workflow. Background and client context live in
+[the background brief](../02-background-brief/background-brief.md); the swimlane
+diagram is [yard-sign-workflow.pdf](yard-sign-workflow.pdf).
 
-## The ask
-
-Jessica needs help managing campaign yard sign requests and delivery. Today the
-campaign runs on a Google Form that feeds a Google Sheet: the form captures the
-request, but everything after it — verification, assignment, delivery
-confirmation, and follow-up — is manual and untracked.
-
-We proposed leveraging AI and automation to add the functionality the current
-setup lacks, chiefly request tracking and the elimination of redundant
-hand-offs, so campaign staff spend their time on judgment calls rather than
-transcription.
-
-## Current workflow
-
-1. Upon request, provide a QR code that directs constituents to a Google Form.
-2. Constituent completes the form.
-3. Data from the form is stored in a Google Sheet.
-4. Campaign staff review each request and pass it to the respective town captain
-   for delivery.
-5. Delivery is completed.
-6. Within 48 hours after the election, all signs must be picked up.
-
-**Where it breaks down.** Steps 4 and 5 carry no status of their own. Once a row
-leaves the sheet for a town captain, the campaign has no record of whether the
-sign was delivered, and the supporter has no way to check. Step 6 has no list to
-work from, because nothing recorded where the signs ended up.
-
-## Proposed workflow
+## The workflow
 
 A supporter requests a yard sign through an intake form and instantly receives a
 confirmation email with a status tracking link. Automation validates and
