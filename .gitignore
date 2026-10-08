@@ -20,3 +20,8 @@ $RECYCLE.BIN/
 .vscode/
 .idea/
 *.swp
+
+# Routing prototype: real campaign data and address caches stay local
+03-midpoint-memo/routing-prototype/private/
+geocode_cache.json
+__pycache__/

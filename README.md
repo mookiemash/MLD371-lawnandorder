@@ -36,3 +36,4 @@ Yard sign request and delivery management for the Jessica Rushing campaign (Mass
 - [Campaign network map](02-background-brief/network-map.html) — download and open locally; GitHub shows source, not the map
 - [Proposed workflow](docs/proposed-workflow.md) — design notes for the automated workflow
 - [Workflow diagram](docs/yard-sign-workflow.pdf) — swimlane view of the proposed workflow
+- [Routing prototype](03-midpoint-memo/routing-prototype/README.md) — per-town delivery routes, map, and Google Maps links from synthetic request data
