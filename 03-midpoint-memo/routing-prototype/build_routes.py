@@ -301,8 +301,11 @@ __PANEL__
 <script>
 const DATA = __DATA__;
 const map = L.map('map');
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-  {maxZoom: 19, attribution: '&copy; OpenStreetMap contributors'}).addTo(map);
+// Esri World Street Map: free for non-commercial use with attribution, no key,
+// and no Referer requirement (tile.openstreetmap.org blocks requests without one,
+// e.g. a downloaded copy opened locally or some privacy browsers).
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+  {maxZoom: 19, attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'}).addTo(map);
 const all = [];
 for (const t of DATA) {
   L.polyline(t.line, {color: t.color, weight: 4, opacity: .85}).addTo(map);
