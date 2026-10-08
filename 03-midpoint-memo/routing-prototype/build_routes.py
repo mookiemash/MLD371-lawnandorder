@@ -301,8 +301,11 @@ __PANEL__
 <script>
 const DATA = __DATA__;
 const map = L.map('map');
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-  {maxZoom: 19, attribution: '&copy; OpenStreetMap contributors'}).addTo(map);
+// CARTO tiles: free, no key, and unlike tile.openstreetmap.org they don't
+// block requests that arrive without a Referer (local files, privacy browsers).
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+  {maxZoom: 19, subdomains: 'abcd',
+   attribution: '&copy; OpenStreetMap contributors &copy; CARTO'}).addTo(map);
 const all = [];
 for (const t of DATA) {
   L.polyline(t.line, {color: t.color, weight: 4, opacity: .85}).addTo(map);
